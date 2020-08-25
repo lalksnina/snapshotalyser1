@@ -10,9 +10,12 @@ This project is a demo, and uses boto3 to manage AWS EC2 instance snapshots.
 
 shotty profile uses the configuration file created by the AWS CLI. e.g.
 
-'aws configure --profile shotty'
+`aws configure --profile shotty`
 
 ## Running
 
-'pipenv run python shotty/shotty.py'
+`pipenv run python shotty/shotty.py <command> <--project=PROJECT>`
+
+*command* is list, start, stop
+*project* is optional
 
